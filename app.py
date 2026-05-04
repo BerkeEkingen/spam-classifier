@@ -17,7 +17,7 @@ texts = [
     "Win money now",
     "Limited offer just for you",
     "Free cash prize",
-    "Call me later",
+    "Call me later", 
     "Let's meet tomorrow",
     "Hello how are you"
 ]
