@@ -36,3 +36,6 @@ Then open: http://127.0.0.1:5000
 * Use larger dataset
 * Improve accuracy
 * Deploy online
+
+  ## Live Demo
+https://spam-classifier-pc3r.onrender.com
