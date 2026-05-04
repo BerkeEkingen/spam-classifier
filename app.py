@@ -5,25 +5,24 @@ from sklearn.naive_bayes import MultinomialNB
 app = Flask(__name__)
 
 
-texts = [
-    "Congratulations you won lottery",
-"Click this link to claim prize",
-"Free iPhone waiting for you",
-"Your account has won a reward",
-"Are you coming tonight?",
-"See you later bro",
-"Can we meet at school?",
-"Don't forget the homework"
+texts =texts = [
     "Win money now",
     "Limited offer just for you",
     "Free cash prize",
-    "Call me later", 
+    "Call me later",
     "Let's meet tomorrow",
-    "Hello how are you"
+    "Hello how are you",
+    "Congratulations you won lottery",
+    "Click this link to claim prize",
+    "Free iPhone waiting for you",
+    "Your account has won a reward",
+    "Are you coming tonight?",
+    "See you later bro",
+    "Can we meet at school?",
+    "Don't forget the homework"
 ]
 
-labels = [1, 1, 1, 1, 0, 0, 0, 0,1,1,1,0,0,0]
-
+labels = [1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0]
 
 vectorizer = CountVectorizer(ngram_range=(1, 2))
 X = vectorizer.fit_transform(texts)
