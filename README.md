@@ -1,5 +1,7 @@
+# Spam Classifier AI 🚀
 
-# Spam Classifier AI
+Live Demo: https://spam-classifier-pc3r.onrender.com
+
 
 A simple Machine Learning web app that detects whether a message is spam or not.
 
@@ -37,5 +39,3 @@ Then open: http://127.0.0.1:5000
 * Improve accuracy
 * Deploy online
 
-  ## Live Demo
-https://spam-classifier-pc3r.onrender.com
